@@ -1,0 +1,70 @@
+<html><head>
+    <title>Payment Details Page</title>
+<style>
+div{
+  background-color: lightgrey;
+  width: 300px;
+  border: 2px solid black;
+  margin-top:150px; 
+  margin-bottom: 80px;
+  margin-right: 80px;
+  margin-left: 250px;
+  padding: 55px 80px 55px 100px;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 7px 7px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<body style="word-wrap: break-word;" onload="openhtmlpage();"><div>
+<!-- To show the data -->
+<h2 style="color:Blue"><center>Your Payment Details</center></h2><br><table style="border :1px;">
+
+<tbody><tr><td>Quote Name:</td> <td><input type="text" id="qname"></td></tr>
+<tr><td>Account Name:</td> <td><input type="text" id="cname"></td></tr>
+<tr><td>Total Amount:</td> <td> <input type="text" id="qnum"></td></tr>
+ </tbody></table>
+<br><br>
+<center><a href="new_carddetail"><button type="button" class="button" value="PAY">Pay </button></a><center>
+    <script>
+         
+        function openhtmlpage(){
+	
+      
+    
+	var context = window.parent.opener.Xrm.Utility.getGlobalContext();
+	var sDefaultURL = context.getClientUrl();
+	//var sURL = sDefaultURL + "/WebResources/PaymentDetails”;
+	if (context.client.getClient() != "Mobile"){
+	    
+        }
+	else{
+	Window.open("window.parent.opener.Xrm.Navigation.openUrl(https://lntinfotech0105.crm.dynamics.com//WebResources/new_PaymentDetails")		
+}
+ var qnamedatabase =  window.parent.opener.Xrm.Page.getAttribute("name").getValue();
+        document.getElementById("qname").value = qnamedatabase;
+
+        var cnamedatabase =  window.parent.opener.Xrm.Page.getAttribute("customerid").getValue();
+       if( cnamedatabase != null){
+                cnamedatabase = cnamedatabase[0].name;
+        }
+        document.getElementById("cname").value = cnamedatabase;
+
+        var qnumdatabase =  window.parent.opener.Xrm.Page.getAttribute("totalamount").getValue();
+        document.getElementById("qnum").value = qnumdatabase;
+ 
+	}
+		
+    </script>
+  </center></center></div>
+</body></html>

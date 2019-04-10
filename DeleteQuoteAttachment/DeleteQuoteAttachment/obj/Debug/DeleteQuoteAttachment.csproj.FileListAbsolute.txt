@@ -1,0 +1,13 @@
+C:\Users\10658353\Desktop\Bajirao Projects\Plugin Applications\DeleteQuoteAttachment\DeleteQuoteAttachment\bin\Debug\DeleteQuoteAttachment.dll
+C:\Users\10658353\Desktop\Bajirao Projects\Plugin Applications\DeleteQuoteAttachment\DeleteQuoteAttachment\bin\Debug\DeleteQuoteAttachment.pdb
+C:\Users\10658353\Desktop\Bajirao Projects\Plugin Applications\DeleteQuoteAttachment\DeleteQuoteAttachment\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\10658353\Desktop\Bajirao Projects\Plugin Applications\DeleteQuoteAttachment\DeleteQuoteAttachment\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\10658353\Desktop\Bajirao Projects\Plugin Applications\DeleteQuoteAttachment\DeleteQuoteAttachment\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\10658353\Desktop\Bajirao Projects\Plugin Applications\DeleteQuoteAttachment\DeleteQuoteAttachment\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\10658353\Desktop\Bajirao Projects\Plugin Applications\DeleteQuoteAttachment\DeleteQuoteAttachment\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\10658353\Desktop\Bajirao Projects\Plugin Applications\DeleteQuoteAttachment\DeleteQuoteAttachment\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\10658353\Desktop\Bajirao Projects\Plugin Applications\DeleteQuoteAttachment\DeleteQuoteAttachment\obj\Debug\DeleteQuoteAttachment.csprojAssemblyReference.cache
+C:\Users\10658353\Desktop\Bajirao Projects\Plugin Applications\DeleteQuoteAttachment\DeleteQuoteAttachment\obj\Debug\DeleteQuoteAttachment.csproj.CoreCompileInputs.cache
+C:\Users\10658353\Desktop\Bajirao Projects\Plugin Applications\DeleteQuoteAttachment\DeleteQuoteAttachment\obj\Debug\DeleteQuoteAttachment.csproj.CopyComplete
+C:\Users\10658353\Desktop\Bajirao Projects\Plugin Applications\DeleteQuoteAttachment\DeleteQuoteAttachment\obj\Debug\DeleteQuoteAttachment.dll
+C:\Users\10658353\Desktop\Bajirao Projects\Plugin Applications\DeleteQuoteAttachment\DeleteQuoteAttachment\obj\Debug\DeleteQuoteAttachment.pdb
